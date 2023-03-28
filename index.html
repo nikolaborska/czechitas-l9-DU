@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DU LEKCE 9</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 class="main">DU Lekce 9</h1>
+
+    <!--AUTO-->
+    <h1 class="car">AUTO</h1>
+    <img src = img/car.png id = "i1" style = "position:absolute; left: 500; top: 100;">
+    <br> <br> <br> <br>
+    <input type = button onClick = "move_img('up')" value = "Up" class = "button1">
+    <br>
+    <input type = button onClick = "move_img('left')" value = "Left" class = "button2">
+    <input type = button onClick = "move_img('right')" value = "right" class = "button3">
+    <br>
+    <input type = button onClick = "move_img('down')" value = "down" class = "button4">
+
+
+<!--PŘIHLÁŠENÍ-->
+
+    <h1>Přihlášení & Odběr</h1>
+
+    <div class = "container">
+        <form id = "login-form">
+            <h2 id = "status"></h2>
+            <label class = "field"> E-mail: <input id = "email-input" type = "email" /></label>
+            <label class = "field"
+                >Password: <input id = "password-input" type = "password"
+            /></label>
+            <div class = "controls">
+                <button type = "submit"> Přihlásit </button>
+            </div>
+        </form>
+    </div>
+
+  <!--NEWSLETTER-->
+
+  <form class = "form"> 
+    <p>Jednou za týden posíláme newsletter ze světa frontendu a UX.</p>
+    <p>Zadejte svůj e-mail a zůstaňte v obraze.</p>
+    <input class = "input" type = "text" /> <button type = "submit"> Odebírat </button>
+</form>
+<!--------------------------------->
+
+    <script src = "main.js"></script>
+</body>
+</html>
